@@ -7,12 +7,15 @@ import ComponentServiceCustomer from './components/ComponentServiceCustomer';
 import ComponentServiceSuppliers from './components/ComponentServiceSuppliers';
 import ComponentServiceSuppliersProf from './components/ComponentServiceSuppliersProf';
 import EmpleadosDepartamentos from './components/EmpleadosDepartamentos'; 
-import EmpleadosDepartamentosv2 from './components/EmpleadoDepartamentosv2';
+import EmpleadosOficios from './components/EmpleadosOficios';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <ComponentServiceCustomer /> */}
-    <EmpleadosDepartamentosv2 />
+    {/* <ComponentServiceSuppliers /> */}
+    {/* <ComponentServiceSuppliersProf /> */}
+    {/* <EmpleadosDepartamentos /> */}
+    <EmpleadosOficios />
     
   </React.StrictMode>
 );
