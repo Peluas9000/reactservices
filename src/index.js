@@ -6,11 +6,14 @@ import reportWebVitals from './reportWebVitals';
 import ComponentServiceCustomer from './components/ComponentServiceCustomer';
 import ComponentServiceSuppliers from './components/ComponentServiceSuppliers';
 import ComponentServiceSuppliersProf from './components/ComponentServiceSuppliersProf';
+import EmpleadosDepartamentos from './components/EmpleadosDepartamentos'; 
+import EmpleadosDepartamentosv2 from './components/EmpleadoDepartamentosv2';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <ComponentServiceCustomer /> */}
-    <ComponentServiceSuppliersProf />
+    <EmpleadosDepartamentosv2 />
+    
   </React.StrictMode>
 );
 
