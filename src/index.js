@@ -8,6 +8,8 @@ import ComponentServiceSuppliers from './components/ComponentServiceSuppliers';
 import ComponentServiceSuppliersProf from './components/ComponentServiceSuppliersProf';
 import EmpleadosDepartamentos from './components/EmpleadosDepartamentos'; 
 import EmpleadosOficios from './components/EmpleadosOficios';
+import DepartamentosComponent from './components/maestrodetalle/DepartamentosComponent';
+import CocheComponent from './components/maestrodetalle/CocheComponent';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -15,8 +17,9 @@ root.render(
     {/* <ComponentServiceSuppliers /> */}
     {/* <ComponentServiceSuppliersProf /> */}
     {/* <EmpleadosDepartamentos /> */}
-    <EmpleadosOficios />
-    
+    {/* <EmpleadosOficios /> */}
+    {/* <DepartamentosComponent/> */}
+    <CocheComponent/>
   </React.StrictMode>
 );
 
